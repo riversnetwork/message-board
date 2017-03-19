@@ -18,6 +18,10 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 # Install Capybara
 gem 'capybara'
+# Use simple form
+gem 'simple_form'
+# Add Bootstrap Sass
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
